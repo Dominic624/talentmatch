@@ -1,0 +1,17 @@
+{
+  "name": "talentmatch",
+  "version": "1.0.0",
+  "description": "AI-powered freelance marketplace: smart matching, milestones, escrow-style payments, messaging and reviews.",
+  "main": "src/server.js",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/seed.js",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
